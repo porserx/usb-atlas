@@ -1,0 +1,65 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Light">
+            <SolidColorBrush x:Key="AppBackgroundBrush" Color="#B3F3F6FA" />
+            <SolidColorBrush x:Key="CardBrush" Color="#E6FFFFFF" />
+            <SolidColorBrush x:Key="InnerCardBrush" Color="#B3FFFFFF" />
+            <SolidColorBrush x:Key="PortTileBrush" Color="#CCFFFFFF" />
+            <SolidColorBrush x:Key="CardBorderBrush" Color="#14000000" />
+            <SolidColorBrush x:Key="SubtleBorderBrush" Color="#0F000000" />
+            <SolidColorBrush x:Key="PillBackgroundBrush" Color="#0F000000" />
+            <SolidColorBrush x:Key="PillBorderBrush" Color="#12000000" />
+            <SolidColorBrush x:Key="TextPrimaryBrush" Color="#E4000000" />
+            <SolidColorBrush x:Key="TextSecondaryBrush" Color="#99000000" />
+            <SolidColorBrush x:Key="TextMutedBrush" Color="#66000000" />
+            <SolidColorBrush x:Key="ScanOverlayBrush" Color="#D9F3F6FA" />
+            <SolidColorBrush x:Key="NavigationViewDefaultPaneBackground" Color="#D9F7FAFC" />
+            <SolidColorBrush x:Key="NavigationViewExpandedPaneBackground" Color="#D9F7FAFC" />
+            <SolidColorBrush x:Key="NavigationViewTopPaneBackground" Color="#D9F7FAFC" />
+            <SolidColorBrush x:Key="AccentButtonTextBrush" Color="#FFFFFFFF" />
+            <LinearGradientBrush x:Key="HeroGradient" StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#EAF4FF" Offset="0" />
+                <GradientStop Color="#F3F0FF" Offset="0.55" />
+                <GradientStop Color="#FFFFFF" Offset="1" />
+            </LinearGradientBrush>
+            <LinearGradientBrush x:Key="BrandGradient" StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#0E7490" Offset="0" />
+                <GradientStop Color="#2563EB" Offset="0.52" />
+                <GradientStop Color="#6D28D9" Offset="1" />
+            </LinearGradientBrush>
+        </ResourceDictionary>
+
+        <ResourceDictionary x:Key="Default">
+            <SolidColorBrush x:Key="AppBackgroundBrush" Color="#B3070B14" />
+            <SolidColorBrush x:Key="CardBrush" Color="#D90D1728" />
+            <SolidColorBrush x:Key="InnerCardBrush" Color="#B20A1423" />
+            <SolidColorBrush x:Key="PortTileBrush" Color="#B30A1423" />
+            <SolidColorBrush x:Key="CardBorderBrush" Color="#22FFFFFF" />
+            <SolidColorBrush x:Key="SubtleBorderBrush" Color="#14FFFFFF" />
+            <SolidColorBrush x:Key="PillBackgroundBrush" Color="#12FFFFFF" />
+            <SolidColorBrush x:Key="PillBorderBrush" Color="#20FFFFFF" />
+            <SolidColorBrush x:Key="TextPrimaryBrush" Color="#F7FAFF" />
+            <SolidColorBrush x:Key="TextSecondaryBrush" Color="#A8B6CB" />
+            <SolidColorBrush x:Key="TextMutedBrush" Color="#71839C" />
+            <SolidColorBrush x:Key="ScanOverlayBrush" Color="#D9070B14" />
+            <SolidColorBrush x:Key="NavigationViewDefaultPaneBackground" Color="#D9080D18" />
+            <SolidColorBrush x:Key="NavigationViewExpandedPaneBackground" Color="#D9080D18" />
+            <SolidColorBrush x:Key="NavigationViewTopPaneBackground" Color="#D9080D18" />
+            <SolidColorBrush x:Key="AccentButtonTextBrush" Color="#07111F" />
+            <LinearGradientBrush x:Key="HeroGradient" StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#14253D" Offset="0" />
+                <GradientStop Color="#0E1728" Offset="0.55" />
+                <GradientStop Color="#1B1730" Offset="1" />
+            </LinearGradientBrush>
+            <LinearGradientBrush x:Key="BrandGradient" StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#22D3EE" Offset="0" />
+                <GradientStop Color="#60A5FA" Offset="0.52" />
+                <GradientStop Color="#A78BFA" Offset="1" />
+            </LinearGradientBrush>
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+
+</ResourceDictionary>

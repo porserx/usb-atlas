@@ -1,0 +1,44 @@
+<UserControl
+    x:Class="UsbAtlas.WinUI.Controls.PortGlyph"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Width="56"
+    Height="36">
+    <Grid>
+        <Grid x:Name="TypeA" Visibility="Visible">
+            <Border x:Name="TypeABody"
+                    Width="50"
+                    Height="24"
+                    CornerRadius="3"
+                    BorderThickness="1.7"
+                    Background="Transparent" />
+            <Rectangle x:Name="TypeALine"
+                       Width="40"
+                       Height="1.2"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Margin="0,7,0,0" />
+            <StackPanel Orientation="Horizontal"
+                        Spacing="15"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Bottom"
+                        Margin="0,0,0,4">
+                <Rectangle x:Name="TypeAPin1" Width="4" Height="4" />
+                <Rectangle x:Name="TypeAPin2" Width="4" Height="4" />
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="TypeC" Visibility="Collapsed">
+            <Border x:Name="TypeCBody"
+                    Width="50"
+                    Height="20"
+                    CornerRadius="10"
+                    BorderThickness="1.7"
+                    Background="Transparent" />
+            <Rectangle x:Name="TypeCLine"
+                       Width="30"
+                       Height="1.2"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" />
+        </Grid>
+    </Grid>
+</UserControl>

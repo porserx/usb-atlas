@@ -1,0 +1,10 @@
+<UserControl
+    x:Class="UsbAtlas.WinUI.Controls.DistributionBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="12">
+    <Grid>
+        <Border Background="{ThemeResource PillBackgroundBrush}" CornerRadius="6" />
+        <Grid x:Name="BarRoot" Margin="1" />
+    </Grid>
+</UserControl>

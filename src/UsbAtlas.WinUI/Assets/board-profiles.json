@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "profiles": [
+    {
+      "manufacturerAliases": [
+        "ASUS",
+        "ASUSTeK COMPUTER INC.",
+        "ASUSTeK"
+      ],
+      "model": "TX GAMING B760M WIFI D4",
+      "displayName": "ASUS TX GAMING B760M WIFI D4",
+      "formFactor": "Micro-ATX",
+      "chipset": "Intel B760",
+      "specUrl": "https://www.asus.com/supportonly/tx%20gaming%20b760m%20wifi%20d4/helpdesk_manual/",
+      "sourceLabel": "ASUS 官方规格",
+      "verifiedOn": "2026-11-21",
+      "rear": [
+        {
+          "type": "USB-C",
+          "version": "USB 3.2 Gen 2x2",
+          "versionKey": "usb32_20",
+          "speedGbps": 20,
+          "count": 1,
+          "note": "后置 Type-C"
+        },
+        {
+          "type": "USB-A",
+          "version": "USB 3.2 Gen 2",
+          "versionKey": "usb32_10",
+          "speedGbps": 10,
+          "count": 4,
+          "note": "后置 Type-A"
+        },
+        {
+          "type": "USB-A",
+          "version": "USB 3.2 Gen 1",
+          "versionKey": "usb32_5",
+          "speedGbps": 5,
+          "count": 1,
+          "note": "后置 Type-A"
+        },
+        {
+          "type": "USB-A",
+          "version": "USB 2.0",
+          "versionKey": "usb2",
+          "speedGbps": 0.48,
+          "count": 2,
+          "note": "后置 Type-A"
+        }
+      ],
+      "front": [
+        {
+          "type": "USB-C",
+          "version": "USB 3.2 Gen 1",
+          "versionKey": "usb32_5",
+          "speedGbps": 5,
+          "count": 1,
+          "header": "USB 3.2 Gen 1 Type-C 接针"
+        },
+        {
+          "type": "USB-A",
+          "version": "USB 3.2 Gen 1",
+          "versionKey": "usb32_5",
+          "speedGbps": 5,
+          "count": 2,
+          "header": "USB 3.2 Gen 1 接针"
+        },
+        {
+          "type": "USB-A",
+          "version": "USB 2.0",
+          "versionKey": "usb2",
+          "speedGbps": 0.48,
+          "count": 4,
+          "header": "USB 2.0 接针 ×2"
+        }
+      ]
+    }
+  ]
+}
