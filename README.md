@@ -4,7 +4,7 @@
 
 这次重构把界面全部换成 WinUI 3 原生 Fluent 组合：系统浅色 / 深色主题、Mica 背景、NavigationView、CommandBar、原生设置卡片、可切换的 Mica / Mica Alt 材质和独立的“关于”页面。数据采集层保持本地、只读、无管理员权限。
 
-**作者：** porserx & EXET · **开源协议：** MIT License · **源代码：** <https://github.com/porserx/usb-atlas>
+**作者：** porserx & EXET · **开源协议：** MIT License · **源代码：** <https://github.com/porserx/usb-atlas> · **下载：** [GitHub Releases](https://github.com/porserx/usb-atlas/releases/latest)
 
 ![总览（浅色主题）](docs/overview.png)
 

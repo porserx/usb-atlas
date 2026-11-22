@@ -18,3 +18,4 @@ final*.png
 screen-*.png
 refactor*.png
 tools/capture.ps1
+release-artifacts/
